@@ -8,6 +8,7 @@ class IpfsIosBackup < Formula
     head "https://github.com/codynhat/ipfs-ios-backup"
   
     depends_on "go" => :build
+    depends_on "codynhat/libimobiledevice/libimobiledevice"
   
     def install
       ENV["GOPATH"] = buildpath
