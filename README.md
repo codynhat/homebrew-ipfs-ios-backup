@@ -1,5 +1,7 @@
 # ipfs-ios-backup Homebrew
 
+See the main repo [here](https://github.com/codynhat/ipfs-ios-backup).
+
 ## How do I install these formulae?
 ```
 brew tap codynhat/ipfs-ios-backup
