@@ -49,6 +49,10 @@ class IpfsIosBackup < Formula
           </array>
           <key>WorkingDirectory</key>
           <string>#{HOMEBREW_PREFIX}</string>
+          <key>StandardErrorPath</key>
+          <string>#{var}/log/ipfs-ios-backup.log</string>
+          <key>StandardOutPath</key>
+          <string>#{var}/log/ipfs-ios-backup.log</string>
         </dict>
       </plist>
       EOS
