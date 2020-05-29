@@ -3,8 +3,8 @@ class IpfsIosBackup < Formula
   homepage "https://github.com/codynhat/ipfs-ios-backup"
 
   # Source code archive. Each tagged release will have one
-  url "https://github.com/codynhat/ipfs-ios-backup/archive/v0.3.0.tar.gz"
-  sha256 "cc0746787bef59d6218cf65b0afa40685363fe421fdd37c76d73be661ebcf0df"
+  url "https://github.com/codynhat/ipfs-ios-backup/archive/v0.3.1.tar.gz"
+  sha256 "53a91f4104f53ceb97578c9593175a691f3013985a56d174b9ef22a37e042ddf"
   head "https://github.com/codynhat/ipfs-ios-backup"
 
   depends_on "go" => :build
